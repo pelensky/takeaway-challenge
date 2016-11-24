@@ -1,7 +1,10 @@
 require_relative "menu"
 require_relative "confirmation"
+<<<<<<< HEAD
 require 'dotenv'
 Dotenv.load
+=======
+>>>>>>> fa8b5e6... ready to start implementing text message functionality
 
 class Order
   # Allows the customer to place an order
@@ -61,9 +64,15 @@ class Order
     "Do you want to confirm this order?"
   end
 
+<<<<<<< HEAD
   def confirm(answer, confirmation = Confirmation.new)
     raise "You have cancelled your order. Please try again" if answer.downcase != "yes"
     @confirmation = confirmation
+=======
+  def confirm(answer)
+    raise "You have cancelled your order. Please try again" if answer.downcase != "yes"
+    Confirmation.new
+>>>>>>> fa8b5e6... ready to start implementing text message functionality
   end
 
 

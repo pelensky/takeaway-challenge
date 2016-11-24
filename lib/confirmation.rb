@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 require 'twilio-ruby'
+=======
+>>>>>>> fa8b5e6... ready to start implementing text message functionality
 require_relative "order"
 
 class Confirmation
@@ -23,5 +26,7 @@ class Confirmation
   def complete_order
     send_message("Thank you! Your order was placed and will be delivered before #{@time}")
   end
+
+
 
 end
