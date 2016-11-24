@@ -1,10 +1,8 @@
 require_relative "menu"
 require_relative "confirmation"
-<<<<<<< HEAD
 require 'dotenv'
 Dotenv.load
-=======
->>>>>>> fa8b5e6... ready to start implementing text message functionality
+
 
 class Order
   # Allows the customer to place an order

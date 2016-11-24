@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 require 'twilio-ruby'
-=======
->>>>>>> fa8b5e6... ready to start implementing text message functionality
+
 require_relative "order"
 
 class Confirmation

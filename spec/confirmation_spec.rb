@@ -3,7 +3,7 @@ require "./lib/confirmation"
 describe Confirmation do
   subject(:confirmation) { described_class.new }
 
-<<<<<<< HEAD
+
   before do
     allow(confirmation).to receive(:send_message) {"Thank you! Your order was placed and will be delivered before 8:00pm"}
   end
@@ -16,6 +16,4 @@ describe Confirmation do
     confirmation.time
   end
 
-=======
->>>>>>> fa8b5e6... ready to start implementing text message functionality
 end

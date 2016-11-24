@@ -54,7 +54,7 @@ describe Order do
         order.calculate_total_price * 2
         expect{(order.display_total_price).to raise_error("An error has occurred. Please try again")}
       end
-  
+
 
 
 
@@ -73,15 +73,8 @@ describe Order do
     end
 
     it "should cacel the order if the user does not confirm it" do
-<<<<<<< HEAD
+
       expect{order.confirm("no").to raise_error "You have cancelled your order. Please try again"}
     end
-
-=======
-      expect{confirm.with("no").to raise_error "You have cancelled your order. Please try again"}
-    end
-
-
->>>>>>> fa8b5e6... ready to start implementing text message functionality
   end
 end
